@@ -20,7 +20,7 @@ google_plus_link: https://plus.google.com/102988802781852497838/posts
 stackoverflow_link: http://buckaroobanjai.github.io/
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/kostas_bartzis\">kostas bartzis</a>"
+footer_left: "Φτιαγμένο με <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/kostas_bartzis\">kostas bartzis</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/BuckarooBanjai/BuckarooBanjai.github.io.git\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
