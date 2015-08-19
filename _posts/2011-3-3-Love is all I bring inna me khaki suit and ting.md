@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Love is all I bring inna me khaki suit and ting
+author: buckaroobanjai
 modified:
 categories: blog
 excerpt:
-tags: []
+tags:
+ - music
 image:
   feature:
 date: 2011-03-03T15:39:55-04:00

@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Silver surfer
+author: buckaroobanjai
 modified:
 categories: blog
 excerpt:
-tags: []
+tags:
+ - economics
+ - ecology
 image:
   feature:
 date: 2011-03-13T15:39:55-04:00
