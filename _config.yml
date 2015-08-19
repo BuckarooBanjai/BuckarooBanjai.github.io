@@ -2,7 +2,7 @@
 title: "Buckaroo Banjai"
 email: kostaris@gmail.com
 description: "Πράγματα που δεν έπρεπε να συμβούν, συμβαίνουν..."
-baseurl: "http://buckaroobanjai.github.io"
+baseurl: 
 url: "http://buckaroobanjai.github.io/"
 title_description: "Πράγματα που δεν έπρεπε να συμβούν, συμβαίνουν..."
 title_image: "http://en.gravatar.com/userimage/8369206/3db1ee4e787816ea72198dfe031d5c8b.jpg?size=300"
@@ -15,9 +15,9 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: kostas_bartzis
 github_username:  BuckarooBanjai
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+linkedin_link: http://buckaroobanjai.github.io/
+google_plus_link: http://buckaroobanjai.github.io/
+stackoverflow_link: http://buckaroobanjai.github.io/
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/kostas_bartzis\">kostas bartzis</a>"
