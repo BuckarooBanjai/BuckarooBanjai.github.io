@@ -90,7 +90,7 @@ layout: default
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
-          <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">Περισσότερα</a>
         </div>
           <div class="title">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -101,7 +101,7 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">Συνεχίστε την ανάγνωση</a>
           </div>
         {% endfor %}
         <hr />
