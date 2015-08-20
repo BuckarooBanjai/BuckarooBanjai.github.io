@@ -41,14 +41,14 @@ layout: default
               </a>
             {% endif %}
           </span>
-          on <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          under {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
+          στο {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} λεπτά ανάγνωσης
+          {{ minutes }} ' ανάγνωσης
         </small>
       </div>
 
