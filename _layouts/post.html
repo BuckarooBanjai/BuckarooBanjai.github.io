@@ -27,7 +27,7 @@ layout: default
 
       <div class="author">
         <small><i>
-          by
+          Από
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
@@ -41,7 +41,7 @@ layout: default
               </a>
             {% endif %}
           </span>
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
+          on <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
           under {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
@@ -110,7 +110,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Published {{ page.previous.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Εκδόθηκε {{ page.previous.date | date: "%B %-d, %Y" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -118,7 +118,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Published {{ page.next.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Εκδόθηκε {{ page.next.date | date: "%B %-d, %Y" }}</p>
           {% endif %}
         </div>
       </div>
