@@ -41,7 +41,7 @@ layout: default
               </a>
             {% endif %}
           </span>
-          <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
+          , <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
           στο {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
