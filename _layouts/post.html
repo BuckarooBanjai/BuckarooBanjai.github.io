@@ -41,7 +41,7 @@ layout: default
               </a>
             {% endif %}
           </span>
-          , <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%-m %-d, %Y" }}</span>
+          , <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%Y - %-mm - %-dd" }}</span>
           στο {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
@@ -110,7 +110,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Εκδόθηκε {{ page.previous.date | date: "%-m %-d, %Y" }}</p>
+          <p class="date">Εκδόθηκε {{ page.previous.date | date: "%Y - %-mm - %-dd" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -118,7 +118,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Εκδόθηκε {{ page.next.date | date: "%-m %-d, %Y" }}</p>
+          <p class="date">Εκδόθηκε {{ page.next.date | date: "%Y - %-mm - %-dd" }}</p>
           {% endif %}
         </div>
       </div>
