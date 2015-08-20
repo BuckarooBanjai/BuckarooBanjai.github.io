@@ -110,7 +110,7 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Εκδόθηκε {{ page.previous.date | date: %-d/%-m/%-Y" }}</p>
+          <p class="date">Εκδόθηκε {{ page.previous.date | date: "%-d/%-m/%-Y" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
