@@ -7,7 +7,7 @@ Cheers
 Konstantinos Bartzis 
 
 ## Theme
-This jekyll theme has been created from scratch by Jacob Tomlison and then forked and further modified by me. Ideas and inspiration are taken from other places but the code is my own.
+This jekyll theme has been created from scratch by Jacob Tomlison and then forked and further modified by me.
 
 ## Tools and Libraries
 The following tools and libraries are used in this theme
