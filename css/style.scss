@@ -26,6 +26,7 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$homo:           #292927;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -42,7 +43,7 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color: $dark;
+	background-color: $homo;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
