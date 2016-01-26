@@ -26,6 +26,7 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$hea:            #939973;      
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -124,7 +125,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $medium;
+	background-color: $hea;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
