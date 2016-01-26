@@ -43,14 +43,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
-	color: $dark;
+	color: $white;
 	font-size: 16px;
 	height: 100%;
 	width: 100%
 }
 
 a, a:active {
-	color: $dark;
+	color: $light-blue;
 	text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ ul {
 }
 
 .navbar, .nav {
-	background-color: $dark;
+	background-color: $dark-blue;
 
 	.navbar-toggle {
 		margin-top: 10px;
