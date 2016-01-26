@@ -26,7 +26,6 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
-$hea:            #939973;      
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -44,14 +43,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
-	color: $white;
+	color: $dark;
 	font-size: 16px;
 	height: 100%;
 	width: 100%
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $dark;
 	text-decoration: none;
 }
 
@@ -65,7 +64,7 @@ ul {
 }
 
 .navbar, .nav {
-	background-color: $dark-blue;
+	background-color: $dark;
 
 	.navbar-toggle {
 		margin-top: 10px;
@@ -125,7 +124,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $hea;
+	background-color: $medium;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
