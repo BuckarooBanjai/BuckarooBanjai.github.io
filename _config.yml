@@ -23,7 +23,7 @@ footer_left: "Φτιαγμένο με <i class=\"fa fa-heart\"></i> από <a hr
 footer_right: "&lt;/&gt; στο <a href=\"https://github.com/BuckarooBanjai/BuckarooBanjai.github.io.git\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-markdown: redcarpet
+kramdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink: pretty
