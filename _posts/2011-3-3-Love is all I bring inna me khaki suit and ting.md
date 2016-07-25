@@ -3,13 +3,13 @@ layout: post
 title: Love is all I bring inna me khaki suit and ting
 author: buckaroobanjai
 modified:
-categories: Ιστολόγιο
+categories: ιστολόγιο
 excerpt:
 tags:
  - μουσική
  - Althea and Donna
  - reggae 
- - uptown top ranking  
+ - uptown top ranking 
 image:
   feature:
 date: 2011-03-03 15:39:55
