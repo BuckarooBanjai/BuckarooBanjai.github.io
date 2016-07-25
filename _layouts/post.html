@@ -28,7 +28,7 @@ layout: default
       <div class="author">
         <small><i>
           {% if page.author %}
-          από
+          Από
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
@@ -39,10 +39,10 @@ layout: default
             {% if site.google_plus_link %}
               </a>
             {% endif %}
-          ,</span>
+          </span>
           {% endif %}
           <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%-d/%-m/%-Y" }}</span>
-          {% if page.categories != empty %} στο {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          {% if page.categories != empty %}, στο {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
