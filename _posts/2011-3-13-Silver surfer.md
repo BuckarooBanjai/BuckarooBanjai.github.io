@@ -3,7 +3,7 @@ layout: post
 title: Silver surfer
 author: buckaroobanjai
 modified:
-categories: blog
+categories: Ιστολόγιο
 excerpt:
 tags:
  - οικολογία
