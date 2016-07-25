@@ -31,14 +31,14 @@ layout: default
           Από
           <span itemprop="author">
             {% if site.google_plus_link %}
-              <a rel="author" href="{{ site.google_plus_link }}">,
+              <a rel="author" href="{{ site.google_plus_link }}">
             {% endif %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
               <span itemprop="name">{{ page.author }}</span>
             </span>
             {% if site.google_plus_link %}
               </a>
-            {% endif %}
+            ,{% endif %},
           </span>
           {% endif %}
           , <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%-d/%-m/%-Y" }}</span>
