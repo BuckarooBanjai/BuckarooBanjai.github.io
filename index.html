@@ -32,12 +32,12 @@ make-smaller-titles: true
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                          <small class="hidden-xs">{{ post.date | date: "%-d/%-m/%-Y" }}</small>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/">Περισσότερα...</a></i></small>
                   </li>
               </ul>
 
