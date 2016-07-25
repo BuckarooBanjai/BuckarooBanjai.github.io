@@ -35,11 +35,11 @@ layout: default
             {% endif %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
               <span itemprop="name">{{ page.author }}</span>
-            </span>,
+            </span>
             {% if site.google_plus_link %}
               </a>
             {% endif %}
-          </span>
+          </span>,
           {% endif %}
           <span itemprop="Εκδόθηκε" content="2014-08-28">{{ page.date | date: "%-d/%-m/%-Y" }}</span>
           {% if page.categories != empty %} στο {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
