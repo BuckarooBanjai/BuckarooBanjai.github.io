@@ -1,5 +1,6 @@
 ---
 layout: default
+make-smaller-titles: true
 ---
 
 
@@ -24,19 +25,19 @@ layout: default
 
             <div class="articles">
 
-              <h2>Πρόσφατα</h2>
+              <h2>Latest Articles</h2>
 
               <ul>
                   {% for post in site.posts | limit: site.post_limit %}
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%-d/%-m/%-Y" }}</small>
+                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">περισσότερα...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
                   </li>
               </ul>
 

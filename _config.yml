@@ -1,4 +1,3 @@
-# Site settings
 title: "Buckaroo Banjai"
 email: kostaris@gmail.com
 description: "Πράγματα που δεν έπρεπε να συμβούν, συμβαίνουν..."
@@ -26,9 +25,8 @@ footer_right: "&lt;/&gt; στο <a href=\"https://github.com/BuckarooBanjai/Buck
 markdown: kramdown
 
 kramdown:
-
-input: GFM
-syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 
 permalink: pretty
 exclude: [vendor]

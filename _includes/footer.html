@@ -24,7 +24,7 @@
    });
 </script>
 
- {% if page.make-smaller-titles %}
+{% if page.make-smaller-titles %}
 <script type="text/javascript">
 
   function setFontSize() {
@@ -32,7 +32,7 @@
     var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
 
     listOfArticlesDiv = document.getElementsByClassName("articles");
-	
+
     for (i = 0; i < listOfArticlesDiv.length; i++) {
 
       listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");

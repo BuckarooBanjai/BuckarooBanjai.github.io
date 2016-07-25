@@ -227,6 +227,10 @@ ul {
 		}
 	}
 
+	.categories {
+		font-size: 22px;
+	}
+
 	.content-panel:nth-of-type(1) {
 		border-bottom: 10px solid $light-blue;
 	}
@@ -318,6 +322,7 @@ ul {
 
 		a, a:active {
 			color: $white;
+			white-space: nowrap;
 		}
 
 		a:hover {
@@ -565,7 +570,7 @@ ul {
 			ul {
 				list-style-type: disc;
 			}
-			
+
             		ol {
 				list-style-type: decimal;
 			}
@@ -821,5 +826,39 @@ ul {
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 20px;
+	}
+}
+
+.btn-categories {
+	background-color: $light-blue;
+	border-color: $light-blue;
+	color: $white;
+	&:hover {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+	&:active {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+	&:focus {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+}
+
+.dropdown-menu {
+	background-color: $light-blue;
+	color: $white;
+	> li > a {
+		background-color: $light-blue;
+		color: $white;
+		&:hover {
+			background-color: $dark-blue;
+			color: $white;
+		}
 	}
 }
