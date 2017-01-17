@@ -1,8 +1,8 @@
 ---
 ---
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
 
 /* Colours */
 $twitter:        #6dabda;
@@ -859,6 +859,23 @@ ul {
 		&:hover {
 			background-color: $dark-blue;
 			color: $white;
-		}
+			}
 	}
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid $darker;;
+}
+
+th{
+    padding: 2px;
+    border:2px solid $darker;;
+}
+
+td{
+    padding: 2px;
+    border:1px solid $dark-blue;;
 }
